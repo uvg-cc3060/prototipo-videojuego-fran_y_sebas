@@ -39,8 +39,6 @@ public class PlayerShoot : MonoBehaviour
             _curCooldown = shootingCooldown;
             _shot = false;
         }
-        
-        Debug.Log(string.Concat("Camera: ", mainCamera.transform.rotation.eulerAngles));
     }
 
     private void ShootBullet()
