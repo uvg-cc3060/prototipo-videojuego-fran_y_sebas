@@ -145,7 +145,7 @@ PrefabInstance:
     - target: {fileID: 3904428529911255452, guid: 17f2adc4bdd7b4c799f511c3b6492031,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -19.92
       objectReference: {fileID: 0}
     - target: {fileID: 3904428529911255452, guid: 17f2adc4bdd7b4c799f511c3b6492031,
         type: 3}
@@ -186,6 +186,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2111690997, guid: 17f2adc4bdd7b4c799f511c3b6492031, type: 3}
+      propertyPath: mainCamera
+      value: 
+      objectReference: {fileID: 1375253327}
+    - target: {fileID: 2111690997, guid: 17f2adc4bdd7b4c799f511c3b6492031, type: 3}
+      propertyPath: shootingCooldown
+      value: 0.15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17f2adc4bdd7b4c799f511c3b6492031, type: 3}
@@ -309,7 +317,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 6c62fb0fe3afc417fafa1925f761380d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -346,7 +354,7 @@ Transform:
   m_GameObject: {fileID: 1000858202}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5, y: 1, z: 5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -376,7 +384,7 @@ PrefabInstance:
     - target: {fileID: 6892258293307811579, guid: 61fff076c8971444f940898d11843b23,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.6849456
+      value: -19.72
       objectReference: {fileID: 0}
     - target: {fileID: 6892258293307811579, guid: 61fff076c8971444f940898d11843b23,
         type: 3}
@@ -420,3 +428,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61fff076c8971444f940898d11843b23, type: 3}
+--- !u!20 &1375253327 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 5107187048073889991, guid: 61fff076c8971444f940898d11843b23,
+    type: 3}
+  m_PrefabInstance: {fileID: 1375253326}
+  m_PrefabAsset: {fileID: 0}
